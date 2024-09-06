@@ -20,3 +20,34 @@ let isloggedin = false
 
 
 console.log(typeof age)
+
+
+/*********  DataTypes ***********/
+// Primitive -> Use Stck memory ->cpybnegi
+// 7 types -> String, Number, Boolean, null, undefined, Symbol, BigInt
+ 
+const num = 300
+const num2 = 300.200
+
+console.log(typeof num)
+console.log(typeof num2)
+
+// Non-Primitive (Referenc Type) -> USe HEAP memory
+// Array, Objects, Functions
+
+//Array
+const heroes = ["ME","You",1]
+console.log (heroes)
+
+//Objects
+
+let myobj = {
+    name : "Neelesh",
+    age: 21,
+}
+
+const myfunction = function(){
+    console.log("Same work as c++")
+
+}
+console.log(myfunction)
